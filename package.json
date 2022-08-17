@@ -1,0 +1,41 @@
+{
+  "name": "typescript-app",
+  "version": "0.0.1",
+  "private": true,
+  "description": "TypeScript template app",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write '**/*.ts'",
+    "format-check": "prettier --check '**/*.ts'",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest",
+    "all": "npm run build && npm run format && npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serverless-cd/typescript-app-template.git"
+  },
+  "keywords": [
+    "serverless-cd",
+    "node",
+    "typescript"
+  ],
+  "author": "heimanba",
+  "license": "MIT",
+  "dependencies": {
+    "@serverless-cd/core": "^0.0.1-alpha.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.5",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.0.1",
+    "eslint-plugin-github": "^4.3.7",
+    "eslint-plugin-jest": "^25.3.2",
+    "jest": "^27.2.5",
+    "js-yaml": "^4.1.0",
+    "prettier": "2.5.1",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.4.4"
+  }
+}
