@@ -1,6 +1,10 @@
 /* eslint-disable no-console */
 
-export default function run(): {[key: string]: any} {
-  console.log('run')
+interface keyValue {
+  [key: string]: any
+}
+
+export default function run(inputs: keyValue): keyValue {
+  console.log(`run :${inputs.milliseconds}`)
   return {success: true}
 }

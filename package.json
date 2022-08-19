@@ -1,11 +1,14 @@
 {
-  "name": "typescript-app",
+  "name": "@serverless-cd/ts-app",
   "version": "0.0.1",
-  "private": true,
   "description": "TypeScript template app",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
+    "start": "tsc --watch",
     "format": "prettier --write '**/*.ts'",
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint src/**/*.ts",
