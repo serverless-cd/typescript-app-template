@@ -37,5 +37,12 @@
     "prettier": "2.5.1",
     "ts-jest": "^27.1.2",
     "typescript": "^4.4.4"
+  },
+  "inputs": {
+    "milliseconds": {
+      "required": true,
+      "description": "input description here",
+      "default": "default value if applicable"
+    }
   }
 }
