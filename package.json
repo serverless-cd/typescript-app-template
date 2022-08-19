@@ -1,6 +1,6 @@
 {
   "name": "@serverless-cd/ts-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript template app",
   "main": "lib/index.js",
   "publishConfig": {
