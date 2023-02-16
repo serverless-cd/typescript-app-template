@@ -27,7 +27,7 @@
   "author": "heimanba",
   "license": "MIT",
   "dependencies": {
-    "@serverless-cd/core": "^0.0.1-alpha.12"
+    "@serverless-cd/core": "^0.0.15"
   },
   "devDependencies": {
     "@types/node": "^18.7.6",
